@@ -1,0 +1,101 @@
+@media(max-width: 991px) {
+    section{
+        padding-top: 50px;
+    }
+
+    .main{
+        padding: 210px 0;
+    }
+
+    .main .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main .subtitle{
+        max-width: 425px;
+        margin: 20px auto;
+    }
+
+    .main .main-link{
+        padding: 15px 35px;
+        font-size: 14px;
+    }
+
+    .services .item{
+        margin-top: 50px;
+    }
+    
+    .pricing .cards{
+        margin-top: 50px;
+    }
+    
+    .pricing .cards .top{
+        padding: 10px 0;
+    }
+    
+    .pricing .cards .price{
+        padding: 15px 0;
+        font-size: 35px;
+    }
+    .pricing .cards ul{
+        padding: 25px 0;
+    }
+    
+    .pricing .cards .link{
+        margin-bottom: 25px;
+    }
+    
+    .projects .site-title{
+        margin-bottom: 50px;
+    }
+    
+    .projects .item{
+        margin-bottom: 25px;
+    }
+    
+    .contacts{
+        padding-bottom: 50px;
+    }
+
+    .contacts form{
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .site-title .title{
+        font-size: 25px;
+    }
+
+    .site-title .subtitle{
+        margin: 15px 0 20px;
+    }
+
+    .site-title .line{
+        width: 100px;
+    }
+
+    .services .item .icon{
+        font-size: 35px;
+    }
+
+    .services .item .title{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    
+    .projects .item{
+        height: 260px;
+    }
+
+    .contacts .input{
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .contacts textarea{
+        height: 200px;
+    }
+}
